@@ -211,7 +211,7 @@ plt.gca().tick_params(axis='both', which='major', labelsize=12)
 plt.text(2.e-2, 1.3e4, r'Settling',fontsize=12,rotation=55)
 plt.text(7.e-4,1.3e4,  r'Re-entrainment',fontsize=12,rotation=55)
 
-# plt.savefig(figure_name, bbox_inches = 'tight' )
+# plt.savefig('./figures/figure2.pdf', bbox_inches='tight', format='pdf') 
 
 plt.show()
 
