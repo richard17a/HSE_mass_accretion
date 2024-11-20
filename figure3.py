@@ -151,6 +151,6 @@ for p,l in zip(axes, ttt):
     p.annotate(l, xy=(-0., 1.04), xycoords="axes fraction", fontsize=Fontsize, weight = 'bold')
     p.tick_params(axis='both', which='major', labelsize=13)
 
-# plt.savefig('./figures/figure2.pdf', bbox_inches='tight', format='pdf') 
+# plt.savefig('./figures/figure3.pdf', bbox_inches='tight', format='pdf') 
 
 plt.show()
