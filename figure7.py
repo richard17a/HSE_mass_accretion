@@ -143,7 +143,7 @@ def main():
     for f0, M_tot in zip(f_values, M_tot_values):
         if f0 == 0.6:
             plt.plot(D_maxs / 1e3, M_tot / M_HSE, color=cm.bamako(f0), zorder=10, lw=2, label=rf'$f_0 \approx 0.6$ (Fischer-Gödde et al., 2020)')
-        elif f0 == 0.2:
+        elif f0 == 0.3:
             plt.plot(D_maxs / 1e3, M_tot / M_HSE, color=cm.bamako(f0), zorder=10, lw=2, label=rf'$f_0 \approx 0.6$ (Worsham & Kleine, 2021)')
         else:
             plt.plot(D_maxs / 1e3, M_tot / M_HSE, color=cm.bamako(f0), zorder=10, lw=0.75)
